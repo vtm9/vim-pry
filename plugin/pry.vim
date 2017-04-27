@@ -7,6 +7,7 @@ let g:loaded_pry = 1
 let g:pry_map = {
       \ 'ruby' : "require 'pry'; binding.pry",
       \ 'slim' : "- require 'pry'; binding.pry",
+      \ 'coffee' : 'debugger',
       \ 'javascript' : 'debugger',
       \ 'javascript.jsx' : 'debugger',
       \ 'elixir' : 'require IEx; IEx.pry',
