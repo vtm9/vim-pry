@@ -11,6 +11,7 @@ let g:pry_map = {
       \ 'javascript' : 'debugger',
       \ 'javascript.jsx' : 'debugger',
       \ 'elixir' : 'require IEx; IEx.pry',
+      \ 'python' : 'import pdb; pdb.set_trace()',
       \}
 
 function! pry#insert()
